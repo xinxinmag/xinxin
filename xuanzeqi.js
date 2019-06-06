@@ -53,16 +53,16 @@ window.addEventListener('load',function () {
         })*/
      let todolist = [
             {
-                id:1, content:'端午要交作业',ctime:'2019/6/4',status:true
+                id:1, content:'端午要请假',ctime:'2019/6/4',status:true
             },
             {
-               id:2, content:'端午不要交作业',ctime:'2019/6/4',status:false
+               id:2, content:'端午不想请假',ctime:'2019/6/4',status:false
             },
             {
-               id:3, content:'端午非要交作业',ctime:'2019/6/4',status:false
+               id:3, content:'端午还是得请假',ctime:'2019/6/4',status:false
             },
             {
-               id:4, content:'端午偏要交作业',ctime:'2019/6/4',status:true
+               id:4, content:'端午就请假吧',ctime:'2019/6/4',status:true
             }
      ]
 
