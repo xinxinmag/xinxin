@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.body{
+    width: 900px;
+    height: 45px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d8dfe3;
+}
+.body .title{
+    width: 900px;
+    height: 45px;
+    position: relative;
+}
+.body .title li{
+    width: 299px;
+    height: 45px;
+    float: left;
+}
+.body .title li.hot{
+    width: 299px;
+    height: 45px;
+}
+.body .title li p{
+    text-align: center;
+    margin-top: 12px;
+
+}
+.body .top1{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: yellow;
+    transition: all ease-in .5s;
+    z-index: -1;
+}
+li.hot:nth-child(1) ~ .top1{
+    transform: translate(0,0);
+}
+li.hot:nth-child(2) ~ .top1{
+    transform: translate(100%,0);
+}
+li.hot:nth-child(3) ~ .top1{
+    transform: translate(200%,0);
+}
+.body .neirong li{
+    margin-top: 20px;
+}
+.body .neirong li input{
+
+}
+.body .neirong li span{
+  display: block;
+    height: 30px;
+    float: left;
+}
+.body .neirong li time{
+    float: right;
+}
+.body .neirong li del{
+    float: right;
+    margin-left: 15px;
+}
+
+form{
+    margin-left: 309px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+form input{
+    height: 23px;
+    border-radius: 5px;
+}
+
+
